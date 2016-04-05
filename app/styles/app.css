@@ -9,3 +9,7 @@ body {
 .D, .Democratic {
   color: blue;
 }
+
+img {
+  height: 400px;
+}

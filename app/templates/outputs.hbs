@@ -1,6 +1,22 @@
 <ul>
   {{#each model as |legislator|}}
-    <li><h3 class={{legislator.party}}> {{legislator.first_name}} {{legislator.last_name}} OUTPUTS</h3>
-    </li><br>
+    <li>
+      <h3 class={{legislator.party}}> {{legislator.full_name}}</h3>
+      <img src="{{legislator.photo_url}}"/>
+
+      <h4><strong>Email: </strong><a href="mailto:{{legislator.email}}">{{legislator.email}}</a></h4>
+
+      <h4><strong>District: </strong>{{legislator.district}}</h4>
+
+      <h4><strong>Party: </strong>{{legislator.party}}</h4>
+
+        {{#each legislator.offices as |office|}}
+            <h4>{{office.name}} Contact:</h4>
+            <p>{{office.phone}}</p>
+            <p>{{office.address}}</p>
+        {{/each}}
+
+    </li>
+    <hr>
   {{/each}}
 </ul>

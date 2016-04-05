@@ -3,8 +3,10 @@ import Ember from 'ember';
 export default Ember.Component.extend({
   actions: {
     stateLookup() {
+      debugger;
       var params = {
-        state: this.get('state')
+        routing: this.get('routing'),
+        // state: this.get('state')
       };
       this.sendAction('stateLookup', params);
     }

@@ -1,9 +1,14 @@
 <h1>Legislator Lookup</h1>
 
 <form>
-  <div class="form-group">
+  <!-- <div class="form-group">
     <label for="state">State</label>
     {{input value=state id="state"}}
+  </div> -->
+
+  <div class="form-group">
+    <label for="routing">Search</label>
+    {{input value=routing id="routing"}}
   </div>
 
   <button class="btn btn-primary" {{action 'stateLookup'}}>Submit</button>

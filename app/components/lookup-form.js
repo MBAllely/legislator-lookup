@@ -2,11 +2,11 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   actions: {
-    zipLookup() {
+    stateLookup() {
       var params = {
-        zip: this.get('zip')
+        state: this.get('state')
       };
-      this.sendAction('zipLookup', params);
+      this.sendAction('stateLookup', params);
     }
   }
 });

@@ -40,3 +40,16 @@ You will need the following things properly installed on your computer.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+### Technologies Used
+
+* JavaScript
+* Ember
+* Node
+* Bower
+* Bootstrap
+* [Open States API](https://sunlightlabs.github.io/openstates-api/)
+
+#### License
+Licensed under the MIT license.
+
+Copyright (c) 2016 **Marika Allely and Bri Popson (Priestesses of Mayhem)**

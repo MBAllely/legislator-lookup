@@ -32,13 +32,13 @@ You will need the following things properly installed on your computer.
 * `ember server` or `ember s`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-## Further Reading / Useful Links
+### Known Bugs
 
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+It's sorta ugly
+
+### Support and Contact details
+
+If you have any questions, concerns, or feedback, please contact the authors through [gitHub](https://github.com/MBAllely).
 
 ### Technologies Used
 
